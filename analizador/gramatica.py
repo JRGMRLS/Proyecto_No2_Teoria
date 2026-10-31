@@ -1,0 +1,50 @@
+"""Gramática del proyecto 2. Cada palabra es un terminal."""
+
+PRODUCCIONES = {
+    "S": [
+        ("NP", "VP"),
+    ],
+    "VP": [
+        ("VP", "PP"),
+        ("V", "NP"),
+        ("cooks",),
+        ("drinks",),
+        ("eats",),
+        ("cuts",),
+    ],
+    "PP": [
+        ("P", "NP"),
+    ],
+    "NP": [
+        ("Det", "N"),
+        ("he",),
+        ("she",),
+    ],
+    "V": [
+        ("cooks",),
+        ("drinks",),
+        ("eats",),
+        ("cuts",),
+    ],
+    "P": [
+        ("in",),
+        ("with",),
+    ],
+    "N": [
+        ("cat",),
+        ("dog",),
+        ("beer",),
+        ("cake",),
+        ("juice",),
+        ("meat",),
+        ("soup",),
+        ("fork",),
+        ("knife",),
+        ("oven",),
+        ("spoon",),
+    ],
+    "Det": [
+        ("a",),
+        ("the",),
+    ],
+}
