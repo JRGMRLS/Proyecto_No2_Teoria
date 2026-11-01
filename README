@@ -1,0 +1,26 @@
+# Proyecto 2 — Teoría de la Computación
+
+## Integrantes
+
+- Jorge Morales - 24284
+- Javier Castillo - 24014
+
+## Descripción
+
+El proyecto reconoce frases de una gramática libre de contexto mediante
+un autómata de pila (PDA) y el algoritmo CYK.
+
+El PDA extiende la clase AFN del proyecto 1 incorporando una pila.
+Ambos métodos indican si la frase es aceptada o rechazada y registran
+los pasos del reconocimiento.
+
+## Ejecución
+
+python proyecto2.py "he eats a cake with a fork"
+
+Para mostrar todos los pasos:
+
+python proyecto2.py "he eats a cake with a fork" --pasos
+
+Link del video:
+https://youtu.be/DafWlnYAV50?si=aEXZGPQsa-9U40H4
